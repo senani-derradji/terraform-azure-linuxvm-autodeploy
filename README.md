@@ -88,8 +88,4 @@ sudo apt autoremove -y
 ## 🛡️ Security Notes
 
 - Private keys should not be committed to GitHub.
-- Use `.gitignore` to exclude `.terraform/` and `.ssh/`.
-
-## 📝 License
-
-This project is licensed under the MIT License.
+- Use `.gitignore` to exclude `.terraform/` and `.ssh/`
