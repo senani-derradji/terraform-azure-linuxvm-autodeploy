@@ -4,17 +4,20 @@ This project automates the deployment of a Linux Virtual Machine in Microsoft Az
 
 ## 📁 Project Structure
 
-```
+
+```bash
 terraform-azure-linuxvm-autodeploy/
-├── basics.sh              # Shell script to install packages on the VM
-├── main.tf                # Main Terraform configuration
-├── outputs.tf             # Output values
-├── provider.tf            # Azure provider settings
-├── variables.tf           # Input variables
-├── terraform.tfvars       # Values for variables
-├── locals.tf              # Local values (e.g. private key content)
-├── .gitignore             # Ignore .terraform and key files
-```
+├── Executable-Files/
+│   └── basics.sh           # Shell script to install packages on the VM
+├── main.tf                 # Main Terraform configuration
+├── outputs.tf              # Output values
+├── provider.tf             # Azure provider settings
+├── variables.tf            # Input variables
+├── terraform.tfvars        # Values for variables
+├── locals.tf               # Local values (e.g. private key content)
+├── .gitignore              # Ignore .terraform and sensitive files
+├── LICENSE                 # Project license (e.g., MIT)
+└── README.md               # Project documentation (this file)
 
 ## 🧪 Installed Packages (`basics.sh`)
 
